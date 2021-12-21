@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("to print the number is an LSB");
+    scanf("%d",&num);
+    if(num & 1)
+    {
+        printf("%d is set(1)",num);
+    }
+    else
+    {
+        printf(" %d the number set(0)",num);
+    }
+
+    return 0;
+}
