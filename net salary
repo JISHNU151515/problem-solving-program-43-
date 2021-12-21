@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int ba,lic,da,ns,pf,hra;
+    printf("to print the net salary here");
+    scanf("%d",&ba);
+    scanf("%d %d %d %d",&lic,&da,&pf,&hra);
+    ns=ba+lic+da-pf-lic;
+    printf("%d",ns);
+
+    return 0;
+}
