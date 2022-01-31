@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,m;
+    printf("to know the heigest of three numbers");\
+    scanf("%d %d",&a,&b);
+    m=max(a,b);
+    printf("%d",m);
+    return 0;
+}
+int max(int a, int b)
+{ int m;
+
+    if(a>b)
+    {
+       int m=a;
+        printf("%d\n",a);
+    }
+    else if(b>a)
+    {
+        int m=b;
+        printf("%d\n",b);
+    }
+    else
+    {
+        printf("enter the number properly");
+    }
+    return(m);
+}
+
+
